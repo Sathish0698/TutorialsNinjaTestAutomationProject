@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TutoraialsNinja Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.tutorialsninja.qa.listners.MyListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="TutoraialsNinja Tests(failed)">
+    <classes>
+      <class name="com.tutorialsninja.qa.testcases.LoginTest">
+        <methods>
+          <include name="InValidEmailandValidPassword"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.qa.testcases.LoginTest -->
+    </classes>
+  </test> <!-- TutoraialsNinja Tests(failed) -->
+</suite> <!-- Failed suite [TutoraialsNinja Automation Test Suite] -->
